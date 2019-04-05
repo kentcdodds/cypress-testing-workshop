@@ -1,0 +1,6 @@
+node_modules
+coverage
+build
+cypress/videos
+cypress/screenshots
+yarn.lock
