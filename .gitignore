@@ -3,4 +3,6 @@ coverage
 build
 cypress/videos
 cypress/screenshots
+cypress-final/videos
+cypress-final/screenshots
 yarn.lock
