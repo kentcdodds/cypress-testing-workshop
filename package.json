@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "exercises": "start-server-and-test dev http://localhost:3000 cy:open:exercises",
+    "final": "start-server-and-test dev http://localhost:3000 cy:open:final",
     "test": "is-ci \"test:run\" \"test:dev\"",
     "cy:run": "npm run cy:run:exercises && npm run cy:run:final",
     "cy:run:final": "cypress run",

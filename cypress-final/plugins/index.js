@@ -1,5 +1,7 @@
 const exerciseConfig = {
   baseUrl: 'http://localhost:3000',
+  viewportHeight: 900,
+  viewportWidth: 400,
   integrationFolder: 'cypress/e2e',
   videosFolder: 'cypress/videos',
   screenshotsFolder: 'cypress/screenshots',
