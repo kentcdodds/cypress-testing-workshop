@@ -1,4 +1,9 @@
-import {userBuilder} from '../support/generate'
+import {build, fake} from 'test-data-bot'
+
+const userBuilder = build('User').fields({
+  username: fake(f => f.internet.userName()),
+  password: fake(f => f.internet.password()),
+})
 
 describe('anonymous calculator', () => {
   it('has the right title', () => {
@@ -41,18 +46,5 @@ describe('registration', () => {
       .should('be.a', 'string')
       .getByTestId('username-display', {timeout: 500})
       .should('have.text', user.username)
-  })
-
-  it(`should show an error message if there's an error registering`, () => {
-    cy.server().route({
-      method: 'POST',
-      url: 'http://localhost:3001/register',
-      status: 500,
-      response: {},
-    })
-    cy.visit('/register')
-      .getByText(/submit/i)
-      .click()
-      .getByText(/error.*try again/i)
   })
 })

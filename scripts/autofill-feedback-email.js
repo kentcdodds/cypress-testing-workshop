@@ -38,7 +38,7 @@ if (isCI) {
       return
     }
     const options = {
-      files: [path.join(__dirname, '..', 'src/**/*.js')],
+      files: [path.join(__dirname, '..', 'cypress/e2e/*.js')],
       from: `&em=${EOL}`,
       to: `&em=${encodeURIComponent(email)}${EOL}`,
     }

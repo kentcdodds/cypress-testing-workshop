@@ -34,13 +34,8 @@ describe('registration', () => {
       .type(user.password)
       .getByText(/submit/i)
       .click()
-      .url()
-      .should('eq', `${Cypress.config().baseUrl}/`)
-      .window()
-      .its('localStorage.token')
-      .should('be.a', 'string')
-      .getByTestId('username-display', {timeout: 500})
-      .should('have.text', user.username)
+      .assertHome()
+      .assertLoggedInAs(user)
   })
 
   it(`should show an error message if there's an error registering`, () => {
@@ -54,5 +49,23 @@ describe('registration', () => {
       .getByText(/submit/i)
       .click()
       .getByText(/error.*try again/i)
+  })
+})
+
+describe('login', () => {
+  it('should login an existing user', () => {
+    cy.createUser().then(user => {
+      cy.visit('/')
+        .getByText(/login/i)
+        .click()
+        .getByLabelText(/username/i)
+        .type(user.username)
+        .getByLabelText(/password/i)
+        .type(user.password)
+        .getByText(/submit/i)
+        .click()
+        .assertHome()
+        .assertLoggedInAs(user)
+    })
   })
 })
