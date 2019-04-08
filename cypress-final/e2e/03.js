@@ -44,8 +44,7 @@ describe('registration', () => {
   })
 
   it(`should show an error message if there's an error registering`, () => {
-    cy.server()
-    cy.route({
+    cy.server().route({
       method: 'POST',
       url: 'http://localhost:3001/register',
       status: 500,
