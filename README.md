@@ -6,7 +6,6 @@ Cypress to test your applications.
 
 [![Build Status][build-badge]][build]
 [![AppVeyor Build Status][win-build-badge]][win-build]
-[![Code Coverage][coverage-badge]][coverage]
 [![GPL 3.0 License][license-badge]][license]
 [![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors)
 [![PRs Welcome][prs-badge]][prs] [![Code of Conduct][coc-badge]][coc]
@@ -104,8 +103,8 @@ node ./scripts/verify
 npm install
 
 # verify the project is ready to run
-npm run build
-npm run test:coverage
+npm run lint
+npm run test:run
 ```
 
 If any of those scripts fail, please try to work out what went wrong by the
@@ -178,7 +177,3 @@ at kent@doddsfamily.us
 [win-build-badge]:
   https://img.shields.io/appveyor/ci/kentcdodds/cypress-testing-workshop.svg?style=flat-square&logo=appveyor
 [win-build]: https://ci.appveyor.com/project/kentcdodds/cypress-testing-workshop
-[coverage-badge]:
-  https://img.shields.io/codecov/c/github/kentcdodds/cypress-testing-workshop.svg?style=flat-square
-[coverage]: https://codecov.io/github/kentcdodds/cypress-testing-workshop
-[watchman]: https://facebook.github.io/watchman/docs/install.html
