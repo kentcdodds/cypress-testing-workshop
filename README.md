@@ -36,8 +36,8 @@ After you've made sure to have the correct things (and versions) installed, you
 should be able to just run a few commands to get set up:
 
 ```
-git clone https://github.com/kentcdodds/react-testing-workshop.git
-cd react-testing-workshop
+git clone https://github.com/kentcdodds/cypress-testing-workshop.git
+cd cypress-testing-workshop
 npm run setup --silent
 ```
 
@@ -61,7 +61,7 @@ This should start up your browser. If you're familiar, this is a standard
 [react-scripts](https://github.com/facebook/create-react-app) application.
 
 You can also open
-[the deployment of the app on Netlify](https://react-testing-workshop.netlify.com/).
+[the deployment of the app on Netlify](https://cypress-testing-workshop.netlify.com/).
 
 ## Running the tests
 
@@ -143,12 +143,12 @@ at kent@doddsfamily.us
 [node]: https://nodejs.org
 [git]: https://git-scm.com/
 [build-badge]:
-  https://img.shields.io/travis/kentcdodds/react-testing-workshop.svg?style=flat-square&logo=travis
-[build]: https://travis-ci.org/kentcdodds/react-testing-workshop
+  https://img.shields.io/travis/kentcdodds/cypress-testing-workshop.svg?style=flat-square&logo=travis
+[build]: https://travis-ci.org/kentcdodds/cypress-testing-workshop
 [license-badge]:
   https://img.shields.io/badge/license-GPL%203.0%20License-blue.svg?style=flat-square
 [license]:
-  https://github.com/kentcdodds/react-testing-workshop/blob/master/README.md#license
+  https://github.com/kentcdodds/cypress-testing-workshop/blob/master/README.md#license
 [prs-badge]:
   https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs]: http://makeapullrequest.com
@@ -158,27 +158,27 @@ at kent@doddsfamily.us
 [coc-badge]:
   https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
 [coc]:
-  https://github.com/kentcdodds/react-testing-workshop/blob/master/CODE_OF_CONDUCT.md
+  https://github.com/kentcdodds/cypress-testing-workshop/blob/master/CODE_OF_CONDUCT.md
 [github-watch-badge]:
-  https://img.shields.io/github/watchers/kentcdodds/react-testing-workshop.svg?style=social
-[github-watch]: https://github.com/kentcdodds/react-testing-workshop/watchers
+  https://img.shields.io/github/watchers/kentcdodds/cypress-testing-workshop.svg?style=social
+[github-watch]: https://github.com/kentcdodds/cypress-testing-workshop/watchers
 [github-star-badge]:
-  https://img.shields.io/github/stars/kentcdodds/react-testing-workshop.svg?style=social
-[github-star]: https://github.com/kentcdodds/react-testing-workshop/stargazers
+  https://img.shields.io/github/stars/kentcdodds/cypress-testing-workshop.svg?style=social
+[github-star]: https://github.com/kentcdodds/cypress-testing-workshop/stargazers
 [twitter]:
-  https://twitter.com/intent/tweet?text=Check%20out%20react-testing-workshop%20by%20@kentcdodds%20https://github.com/kentcdodds/react-testing-workshop%20%F0%9F%91%8D
+  https://twitter.com/intent/tweet?text=Check%20out%20cypress-testing-workshop%20by%20@kentcdodds%20https://github.com/kentcdodds/cypress-testing-workshop%20%F0%9F%91%8D
 [twitter-badge]:
-  https://img.shields.io/twitter/url/https/github.com/kentcdodds/react-testing-workshop.svg?style=social
+  https://img.shields.io/twitter/url/https/github.com/kentcdodds/cypress-testing-workshop.svg?style=social
 [emojis]: https://github.com/kentcdodds/all-contributors#emoji-key
 [all-contributors]: https://github.com/kentcdodds/all-contributors
 [win-path]:
   https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/
 [mac-path]: http://stackoverflow.com/a/24322978/971592
-[issue]: https://github.com/kentcdodds/react-testing-workshop/issues/new
+[issue]: https://github.com/kentcdodds/cypress-testing-workshop/issues/new
 [win-build-badge]:
-  https://img.shields.io/appveyor/ci/kentcdodds/react-testing-workshop.svg?style=flat-square&logo=appveyor
-[win-build]: https://ci.appveyor.com/project/kentcdodds/react-testing-workshop
+  https://img.shields.io/appveyor/ci/kentcdodds/cypress-testing-workshop.svg?style=flat-square&logo=appveyor
+[win-build]: https://ci.appveyor.com/project/kentcdodds/cypress-testing-workshop
 [coverage-badge]:
-  https://img.shields.io/codecov/c/github/kentcdodds/react-testing-workshop.svg?style=flat-square
-[coverage]: https://codecov.io/github/kentcdodds/react-testing-workshop
+  https://img.shields.io/codecov/c/github/kentcdodds/cypress-testing-workshop.svg?style=flat-square
+[coverage]: https://codecov.io/github/kentcdodds/cypress-testing-workshop
 [watchman]: https://facebook.github.io/watchman/docs/install.html

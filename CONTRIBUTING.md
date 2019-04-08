@@ -15,7 +15,7 @@ series [How to Contribute to an Open Source Project on GitHub][egghead]
 > pull requests from branches on your fork. To do this, run:
 >
 > ```
-> git remote add upstream https://github.com/kentcdodds/react-testing-workshop.git
+> git remote add upstream https://github.com/kentcdodds/cypress-testing-workshop.git
 > git fetch upstream
 > git branch --set-upstream-to=upstream/master master
 > ```
