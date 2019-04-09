@@ -1,3 +1,10 @@
+import {build, fake} from 'test-data-bot'
+
+const userBuilder = build('User').fields({
+  username: fake(f => f.internet.userName()),
+  password: fake(f => f.internet.password()),
+})
+
 describe('anonymous calculator', () => {
   it('has the right title', () => {
     cy.visit('/')
@@ -22,7 +29,7 @@ describe('anonymous calculator', () => {
 
 describe('registration', () => {
   it('should register a new user', () => {
-    const user = {username: 'chucknorris', password: 'ineednopassword'}
+    const user = userBuilder()
     cy.visit('/')
       .getByText(/register/i)
       .click()

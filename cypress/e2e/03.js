@@ -47,11 +47,12 @@ describe('anonymous calculator', () => {
 
 // 💯 In our simple example, registering a user with the same username every
 // time is fine because our backend is very basic and doesn't even validate
-// username uniqueness. But it would definitely cause issues in a more
-// real-world scenario. So instead of hard-coding the user here, try to generate
-// the user's information.
-// You could use `Math.random()` yourself, or you could use the `test-data-bot`
-// package which we have installed already.
+// username uniqueness. And in a perfect world we would be re-initializing our
+// database between every test. However that's typically not very feasible so
+// having a hard-coded user here could cause issues in a more real-world
+// scenario. So instead of hard-coding the user here, try to generate the user's
+// information. You could use `Math.random()` yourself, or you could use the
+// `test-data-bot` package which we have installed already.
 // 📜 https://github.com/jackfranklin/test-data-bot
 
 //////// Elaboration & Feedback /////////

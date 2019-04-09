@@ -61,22 +61,6 @@ describe('registration', () => {
   // ahead and navigate directly to the register page with `visit`,
   // click on the submit button, and verify that the proper text appears
   // 💰 You can use getByText and that will be sufficient for your assertion.
-  /*
-
-  it(`should show an error message if there's an error registering`, () => {
-    cy.server()
-    cy.route({
-      method: 'POST',
-      url: 'http://localhost:3001/register',
-      status: 500,
-      response: {},
-    })
-    cy.visit('/register')
-      .getByText(/submit/i)
-      .click()
-      .getByText(/error.*try again/i)
-  })
-  */
 })
 
 //////// Elaboration & Feedback /////////

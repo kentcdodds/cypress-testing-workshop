@@ -60,18 +60,12 @@ describe('registration', () => {
 describe('login', () => {
   it('should login an existing user', () => {
     const user = userBuilder()
+    cy.request({
+      url: 'http://localhost:3001/register',
+      method: 'POST',
+      body: user,
+    })
     cy.visit('/')
-      // register the user
-      .getByText(/register/i)
-      .click()
-      .getByLabelText(/username/i)
-      .type(user.username)
-      .getByLabelText(/password/i)
-      .type(user.password)
-      .getByText(/submit/i)
-      .click()
-      .getByText(/logout/i)
-      .click()
       // begin our actions
       .getByText(/login/i)
       .click()
