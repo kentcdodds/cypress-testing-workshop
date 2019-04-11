@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "wgolledge",
+      "name": "Will Golledge",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/35961363?v=4",
+      "profile": "https://github.com/wgolledge",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "cypress-testing-workshop",
+  "projectOwner": "kentcdodds",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
