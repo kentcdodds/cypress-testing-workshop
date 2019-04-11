@@ -42,7 +42,7 @@ describe('anonymous calculator', () => {
 // 3. Get the password input by the label "Password" and type `user.password`
 // 4. Get the submit button by it's text and click it.
 // 5. Get the url (💰 cy.url()) and assert that it should equal `${Cypress.config().baseUrl}/`
-// 6. Get the window (💰 cy.window()) and assert that its localStorage.token is a string (💰 cy.its('localStorage.token'))
+// 6. Get the window (💰 cy.window()) and assert that its localStorage.token (💰 cy.its('localStorage.token')) is a string (💰 cy.should('be.a', 'string')) 
 // 7. Get the 'username-display' element by it's data-testid (💰 cy.getByTestId('username-display')) and verify that it should "have.text" user.username
 
 // 💯 In our simple example, registering a user with the same username every
