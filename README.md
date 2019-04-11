@@ -1,5 +1,5 @@
 # Cypress Testing Workshop
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 👋 hi there! My name is [Kent C. Dodds](https://kentcdodds.com)! This is a
 workshop repo to teach you about increasing your deploy confidence by using
@@ -119,7 +119,7 @@ can.
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-<table><tr><td align="center"><a href="https://github.com/wgolledge"><img src="https://avatars0.githubusercontent.com/u/35961363?v=4" width="100px;" alt="Will Golledge"/><br /><sub><b>Will Golledge</b></sub></a><br /><a href="https://github.com/kentcdodds/cypress-testing-workshop/commits?author=wgolledge" title="Documentation">📖</a></td></tr></table>
+<table><tr><td align="center"><a href="https://kentcdodds.com"><img src="https://avatars0.githubusercontent.com/u/1500684?v=4" width="100px;" alt="Kent C. Dodds"/><br /><sub><b>Kent C. Dodds</b></sub></a><br /><a href="https://github.com/kentcdodds/cypress-testing-workshop/commits?author=kentcdodds" title="Code">💻</a> <a href="https://github.com/kentcdodds/cypress-testing-workshop/commits?author=kentcdodds" title="Documentation">📖</a> <a href="#infra-kentcdodds" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/kentcdodds/cypress-testing-workshop/commits?author=kentcdodds" title="Tests">⚠️</a></td><td align="center"><a href="https://github.com/wgolledge"><img src="https://avatars0.githubusercontent.com/u/35961363?v=4" width="100px;" alt="Will Golledge"/><br /><sub><b>Will Golledge</b></sub></a><br /><a href="https://github.com/kentcdodds/cypress-testing-workshop/commits?author=wgolledge" title="Documentation">📖</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 Thanks goes to these wonderful people
