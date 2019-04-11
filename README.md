@@ -1,4 +1,5 @@
 # Cypress Testing Workshop
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 👋 hi there! My name is [Kent C. Dodds](https://kentcdodds.com)! This is a
 workshop repo to teach you about increasing your deploy confidence by using
@@ -116,6 +117,11 @@ can.
 
 ## Contributors
 
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table><tr><td align="center"><a href="https://github.com/wgolledge"><img src="https://avatars0.githubusercontent.com/u/35961363?v=4" width="100px;" alt="Will Golledge"/><br /><sub><b>Will Golledge</b></sub></a><br /><a href="https://github.com/kentcdodds/cypress-testing-workshop/commits?author=wgolledge" title="Documentation">📖</a></td></tr></table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 Thanks goes to these wonderful people
 ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
