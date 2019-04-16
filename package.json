@@ -4,6 +4,11 @@
   "version": "1.0.0",
   "description": "Cypress Workshop",
   "main": "index.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=6",
+    "yarn": ">=1"
+  },
   "scripts": {
     "exercises": "start-server-and-test dev http://localhost:3000 cy:open:exercises",
     "final": "start-server-and-test dev http://localhost:3000 cy:open:final",
@@ -27,9 +32,8 @@
     "format": "prettier \"**/*.+(js|json|less|css|html|ts|tsx|md)\" --write",
     "lint": "eslint .",
     "validate": "npm-run-all test:run lint",
-    "postinstall": "cd server && npm install",
     "netlify": "npm run test:run",
-    "setup": "node ./scripts/verify && node ./scripts/install && npm run validate && node ./scripts/autofill-feedback-email.js"
+    "setup": "node ./scripts/setup && npm run validate && node ./scripts/autofill-feedback-email.js"
   },
   "husky": {
     "hooks": {
@@ -80,7 +84,8 @@
     ],
     "rules": {
       "no-alert": "off",
-      "react/prop-types": "off"
+      "react/prop-types": "off",
+      "no-console": "off"
     }
   },
   "eslintIgnore": [

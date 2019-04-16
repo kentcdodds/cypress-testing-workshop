@@ -1,4 +1,5 @@
 # Cypress Testing Workshop
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 👋 hi there! My name is [Kent C. Dodds](https://kentcdodds.com)! This is a
@@ -13,17 +14,17 @@ Cypress to test your applications.
 
 ## System Requirements
 
-- [git][git] v2.14.1 or greater
-- [NodeJS][node] v8.9.4 or greater
-- [npm][npm] v5.6.0 or greater
+- [git][git] v2 or greater
+- [NodeJS][node] v8 or greater
+- [yarn][yarn] v1 or greater (or [npm][npm] v6 or greater)
 
 All of these must be available in your `PATH`. To verify things are set up
 properly, you can run this:
 
-```
+```shell
 git --version
 node --version
-npm --version
+yarn --version # or npm --version
 ```
 
 If you have trouble with any of these, learn more about the PATH environment
@@ -138,6 +139,7 @@ would like to use this material to conduct your own workshop, please contact me
 at kent@doddsfamily.us
 
 [npm]: https://www.npmjs.com/
+[yarn]: https://yarnpkg.com
 [node]: https://nodejs.org
 [git]: https://git-scm.com/
 [build-badge]:
