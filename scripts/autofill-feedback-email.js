@@ -1,6 +1,5 @@
 /* eslint no-console:0 */
 const path = require('path')
-const {EOL} = require('os')
 const inquirer = require('inquirer')
 const replace = require('replace-in-file')
 const isCI = require('is-ci')
@@ -38,9 +37,9 @@ if (isCI) {
       return
     }
     const options = {
-      files: [path.join(__dirname, '..', 'cypress/e2e/*.js')],
-      from: `&em=${EOL}`,
-      to: `&em=${encodeURIComponent(email)}${EOL}`,
+      files: [path.join(__dirname, '..', 'src/**/*.js')],
+      from: /&em=\r?\n/,
+      to: `&em=${email}\n`,
     }
 
     replace(options).then(
