@@ -25,9 +25,9 @@ describe('anonymous calculator', () => {
   // 6. Get the displayed result and assert that it should have.text '3'
 })
 
-// 💯 This project has cypress-testing-library installed. Now that you've got
+// 💯 This project has @testing-library/cypress installed. Now that you've got
 // some really weird class name selectors in your test, go ahead and try to
-// use cypress-testing-library instead
+// use @testing-library/cypress instead
 // 📜 https://testing-library.com/cypress
 
 //////// Elaboration & Feedback /////////

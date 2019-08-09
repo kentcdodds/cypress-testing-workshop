@@ -4,7 +4,7 @@
 // - window: https://docs.cypress.io/api/commands/window.html
 // - its: https://docs.cypress.io/api/commands/its.html
 //
-// 📜 You'll also probably want to use the following new commands from cypress-testing-library:
+// 📜 You'll also probably want to use the following new commands from Cypress Testing Library:
 // - getByText: https://testing-library.com/docs/dom-testing-library/api-queries#bytext
 // - getByLabelText: https://testing-library.com/docs/dom-testing-library/api-queries#bylabeltext
 // - getByTestId: https://testing-library.com/docs/dom-testing-library/api-queries#bytestid
